@@ -8,4 +8,25 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Assets\deadSnakeBody.png" />
+    <None Remove="Assets\deadSnakeFace.png" />
+    <None Remove="Assets\empty.png" />
+    <None Remove="Assets\food.png" />
+    <None Remove="Assets\icon.png" />
+    <None Remove="Assets\snakeBody.png" />
+    <None Remove="Assets\snakeFace.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\AtmaSemiBold.ttf" />
+    <Resource Include="Assets\deadSnakeBody.png" />
+    <Resource Include="Assets\deadSnakeFace.png" />
+    <Resource Include="Assets\empty.png" />
+    <Resource Include="Assets\food.png" />
+    <Resource Include="Assets\icon.png" />
+    <Resource Include="Assets\snakeBody.png" />
+    <Resource Include="Assets\snakeFace.png" />
+  </ItemGroup>
+
 </Project>

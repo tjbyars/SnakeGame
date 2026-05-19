@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:Snake"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <SolidColorBrush x:Key="BackgroundColor">#35234a</SolidColorBrush>
+        <SolidColorBrush x:Key="GridBackgroundColor">#3c2a52</SolidColorBrush>
+        <SolidColorBrush x:Key="GridLineColor">#605185</SolidColorBrush>
+        <SolidColorBrush x:Key="TextColor">#799c7e</SolidColorBrush>
+        <SolidColorBrush x:Key="OverlayColor">#06080600</SolidColorBrush>
+        <FontFamily x:Key="MainFont">Assets/#Atma Semibold</FontFamily>
     </Application.Resources>
 </Application>
